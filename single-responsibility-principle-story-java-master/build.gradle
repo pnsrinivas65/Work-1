@@ -1,0 +1,48 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:2.0.0.RELEASE")
+    }
+}
+
+group 'com.contacts.book'
+version '1.0.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+    maven {
+        url 'https://repo.spring.io/libs-snapshot'
+    }
+}
+
+dependencies {
+    // STARTERS
+    compile 'org.springframework.boot:spring-boot-starter-web'
+
+    // JSON
+    compile 'com.fasterxml.jackson.core:jackson-databind:+'
+
+    // TEST
+    testCompile 'org.springframework.boot:spring-boot-starter-test'
+
+    // Mail
+    //compile 'org.apache.commons:commons-email:1.5'
+    compile 'org.springframework.boot:spring-boot-starter-thymeleaf:+'
+    compile 'org.springframework.boot:spring-boot-starter-mail:+'
+
+    // Logging
+    compile 'org.slf4j:slf4j-log4j12:1.8.0-beta2'
+    //compile 'org.slf4j:slf4j-api:1.7.25'
+    //compile 'log4j:log4j:1.2.17'
+
+}

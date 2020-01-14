@@ -1,0 +1,14 @@
+{
+  "title": "Single Responsibility Principle Refactoring Story",
+  "readingTime": 20,
+  "authors": [
+    {
+      "name": "Vsevolod Osmachko",
+      "email": "vsevolod_osmachko@epam.com"
+    }
+  ],
+  "description": "Welcome to refactoring story about Single Responsibility Principle (SRP) for SOLID training course. This story is about proper decomposition of classes and methods to fit Single Responsibility Principle. In this story you will see example of web service application that is able to store and manage information about persons and their contacts. Also you will see application evolution during refactoring  and improvements steps.",
+  "tags": [
+  ],
+  "program_lang": "java"
+}
