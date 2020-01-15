@@ -2,7 +2,7 @@
 
 ## General Task Guidelines
 
-*	Please fork the repository to your EPAM GitLab account and make corrections per the principles/topics discussed so far in this course . 
+*	Please fork the repository to your Git account and make corrections per the principles/topics discussed so far in this course . 
 *	The task repository may contain one or more than one practical task per given topic, you are expected to complete all the tasks.
 *	Tasks are Java based and it is NOT mandatory to use the latest language versions while making code updates.
 *	It is recommended that you complete the practical tasks for a topic before proceeding to the next topics.
