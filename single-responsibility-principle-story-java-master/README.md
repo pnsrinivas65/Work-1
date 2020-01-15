@@ -1,7 +1,5 @@
 # Single Responsibility Principle Refactoring Story
-**To read the story**: https://refactoringstories.com/file-view/https:%2F%2Fgit.epam.com%2FRefactoring-Stories%2Fsingle-responsibility-principle-story-java
-
-**To code yourself**: https://git.epam.com/Refactoring-Stories/single-responsibility-principle-story-java
+**To code yourself**: https://git.com/Refactoring-Stories/single-responsibility-principle-story-java
 
 **Estimated reading time**: 20 min
 
