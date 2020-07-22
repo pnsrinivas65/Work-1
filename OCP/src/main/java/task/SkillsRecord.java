@@ -26,4 +26,7 @@ public class SkillsRecord extends Record {
     public enum Level {
         EXPERT, ADVANCED, INTERMEDIATE, NOVICE
     }
+    public String format(){
+         return "skills: " + getSkill() + "=" + getLevel();
+ }
 }

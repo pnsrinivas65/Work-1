@@ -3,7 +3,6 @@ package task;
 public class FeedbackRecord extends Record {
 
     private String criterion;
-
     private Quality quality;
 
     public String getCriterion() {
@@ -31,4 +30,7 @@ public class FeedbackRecord extends Record {
         SOMETIMES_FAILS_TO_MEET_EXPECTATION,
         OFTEN_FAILS_TO_MEET_EXPECTATION
     }
+    public String format() {
+    	 return "feedback: " + getCriterion() + "=" + getQuality();
+}
 }

@@ -3,9 +3,7 @@ package task;
 public class BirthdayRecord extends Record {
 
     private int year;
-
     private int month;
-
     private int day;
 
     public int getYear() {
@@ -31,4 +29,9 @@ public class BirthdayRecord extends Record {
     public void setDay(int day) {
         this.day = day;
     }
+    
+    public String format() {
+    	 
+         return "birthday: " + getYear() + "/" + getMonth() + "/" + getDay();
+}
 }

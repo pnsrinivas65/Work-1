@@ -2,11 +2,12 @@ package task2;
 
 final class IncomeMultiplier {
 
+	private static final int LOAN_MUTIPLIER_1000 = 1_000;
     static int multiply(int loan, int income) {
         return loan * getIncomeMultiplier(income);
     }
 
     private static int getIncomeMultiplier(int income) {
-        return income <= 1_000 ? 1 : 2;
+		return income <= LOAN_MUTIPLIER_1000 ? 1 : 2;
     }
 }
